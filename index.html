@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Acme Co — Solutions That Scale</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Acme Co</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav" id="site-nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Grow your business with dependable solutions</h1>
+        <p>We build reliable web and app experiences that delight customers and scale with your team.</p>
+        <p><a class="btn" href="#contact">Get a free consult</a></p>
+      </div>
+    </section>
+
+    <section id="services" class="container features">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Custom Web</h3>
+          <p>Modern, responsive websites optimized for conversion and speed.</p>
+        </div>
+        <div class="card">
+          <h3>Mobile Apps</h3>
+          <p>Native and cross-platform apps tailored to users' needs.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting</h3>
+          <p>Roadmaps, architecture reviews and growth-focused engineering.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About Acme Co</h2>
+      <p>We’re a small team of engineers and designers who prioritize outcomes over buzzwords. Fast iteration, clear communication, measurable results.</p>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact us</h2>
+      <form id="contact-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Acme Co — Built with care.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
